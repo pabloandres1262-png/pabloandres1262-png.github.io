@@ -1,0 +1,148 @@
+.doctor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.doctor-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px); 
+}
+
+.doctor-thumb {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; 
+}
+
+.doctor-info {
+    padding: 20px;
+}
+
+.specialty-tag {
+    background: #e8ebf5;
+    color: #2a58d3;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.doctor-info h3 {
+    margin: 10px 0 5px 0;
+    font-size: 20px;
+}
+
+.doctor-edu {
+    font-size: 13px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.doctor-desc {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn-contact {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2a58d3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif; 
+    background-color: #f5f6f8; 
+}
+
+
+.main-header {
+    width: 100%;
+    background-color: #ffffff; 
+    padding: 15px 0; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05); 
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1400px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 40px; 
+}
+
+.logo-block {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    text-decoration: none; 
+    color: #000;
+}
+
+.logo-img {
+    height: 45px; 
+    width: auto;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column; 
+    line-height: 1.2;
+}
+
+.brand-name {
+    font-size: 18px;
+    font-weight: 700; 
+}
+
+.brand-sub {
+    font-size: 12px;
+    color: #666;
+}
+
+
+.main-nav ul {
+    list-style: none; 
+    display: flex; 
+    gap: 30px; 
+}
+
+.main-nav a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s; 
+}
+
+.main-nav a:hover {
+    color: #2a58d3; 
+}
